@@ -290,3 +290,6 @@ svg {
 .btn-delete {
   background: tomato;
 }
+body {
+    background-color: aqua;
+}

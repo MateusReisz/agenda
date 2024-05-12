@@ -6,6 +6,7 @@ from contact import views
 app_name = 'contact'
 
 urlpatterns = [
+<<<<<<< HEAD
     path('search/', views.search, name='search'),
     path('', views.index, name='index'),
 
@@ -21,4 +22,7 @@ urlpatterns = [
     path('user/logout/', views.logout_view, name='logout'),
     path('user/update/', views.user_update, name='user_update'),
     
+=======
+    path('', views.index, name='index'),
+>>>>>>> c122867318f46906d42adccd4206e0b53e5ad538
 ]
