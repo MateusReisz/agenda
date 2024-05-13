@@ -8,7 +8,9 @@ static/
 media/
 project/local_settings.py
 gunicorn.txt
+gunicorn-error-log
 nginx-http.txt
+__localcode
 # Backup files # 
 *.bak 
 
